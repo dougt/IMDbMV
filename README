@@ -1,0 +1,16 @@
+Will query IMBd for the "correct" title for your files.
+
+
+
+How to use:
+
+1) Read rename.py
+2) edit the 'root' variable to point to where your videos live
+3) run rename.py and pipe data to a file:
+
+  python rename.py > mv.list
+
+4) review mv.list.  There will be mistakes
+5) apply the changes:
+
+  source mv.list
